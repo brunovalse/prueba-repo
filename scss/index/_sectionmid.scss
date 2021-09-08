@@ -1,0 +1,13 @@
+.section {
+    background-color: rgb(206, 206, 198);
+    border: solid 2px whitesmoke;
+}
+
+.card-img-top {
+    height: 200px;
+    width: 280px;
+}
+.section__div {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,14 @@
+#video {
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+}
+
+
+@media all and (max-width:1200px) {
+    #video{
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,27 @@
+@import 'header';
+@import 'index/video';
+@import 'index/sectionmid';
+@import 'index/form';
+@import 'Propiedades/Propiedades';
+@import 'Nosotros/mision';
+@import 'Nosotros/personal';
+@import 'Propiedades/casa/casa';
+@import 'footer';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,700&display=swap');
+
+
+html {
+    font-size: 10px;
+    }
+
+
+
+
+    * {
+        margin: 0%;
+        font-family: 'Raleway', sans-serif;
+        
+        }

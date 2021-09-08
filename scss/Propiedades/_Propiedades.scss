@@ -1,0 +1,249 @@
+.propiedades {
+    background-color: #fafafa;
+    height: 100%;
+    width: 100%;
+}
+
+.section-propiedades{
+    padding: 15rem;
+}
+
+.venta-casa {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 65rem ;
+    margin-left: 10%;
+
+}
+
+.venta-casa-img {
+width: 32rem;
+height: 19rem;
+}
+
+
+.div-casa-texto {
+    display: inline-block;
+    background-color: #ffffff;
+    height: 27rem;
+    width: 32rem;
+    box-shadow: 0 0 2px rgb(0 0 0 / 10%)
+    
+
+}
+
+.venta-casa-span{
+    position: absolute;
+
+}
+
+
+.venta-casa-span-texto {
+    padding: 1rem 2rem 1rem 2rem;
+    color: white;
+    display: inline-block;
+    background-color: green;
+    font-size: 1.5rem;
+}
+
+.casa-link {
+    text-decoration: none; 
+    color: black;
+    text-decoration: underline;
+    font-size: 2rem;
+    margin: 9rem;
+    line-height: 8rem;
+}
+.div-casa-p {
+    width: 20rem;
+    text-align: center;
+    margin-left: 5rem;
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+
+.div-casa-div-detalles{
+    position: absolute;
+    background-color: rgb(76, 76, 241);
+    margin: 0px 0px 0px 110px;
+}
+.div-casa-detalles{
+    display: inline-block;
+    text-decoration: none;
+    color: white;        
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+.div-casa-a:hover {
+    filter: brightness(0.7) drop-shadow(1px 1px 20px black);
+}
+.div-casa-texto:hover {
+    filter: drop-shadow(1px 1px 2px black);
+}
+
+@media all and (max-width:1500px) {
+    .venta-casa {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 65rem 65rem;
+        margin-left: 10%;
+
+    }
+    
+}
+@media all and (max-width:1070px) {
+.venta-casa {
+    display: grid;
+    grid-template-columns: 1fr 1fr   ;
+    grid-template-rows: 65rem  65rem 65rem 65rem 65rem 65rem;
+    margin-left: 0;
+    
+
+}
+
+}
+@media all and (max-width:950px) {
+
+.venta-casa {
+    display: grid;
+    grid-template-columns: 1fr   ;
+    grid-template-rows: 65rem  65rem 65rem 65rem 65rem 65rem;
+    margin-left: 22%;
+    
+
+}
+
+.d-block-w-100 {
+    height:600px;
+    width: 100%;
+}
+
+.carousel-h5 {
+    font-size: 4rem
+}
+.carousel-p {
+    font-size: 2rem;
+}
+}
+@media all and (max-width:680px) {
+
+.venta-casa {
+    display: grid;
+    grid-template-columns: 1fr   ;
+    grid-template-rows: 65rem  65rem 65rem 65rem 65rem 65rem;
+    margin-left: 10%;
+    
+
+}
+
+.d-block-w-100 {
+    height:400px;
+    width: 100%;
+}
+
+.carousel-h5 {
+    font-size: 4rem
+}
+.carousel-p {
+    font-size: 2rem;
+}
+}
+@media all and (max-width:600px) {
+
+.venta-casa {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;       
+
+}
+
+.d-block-w-100 {
+    height:400px;
+    width: 100%;
+}
+
+.carousel-h5 {
+    font-size: 4rem
+}
+.carousel-p {
+    font-size: 2rem;
+}
+.div-casa-div-detalles{
+    display: none;
+
+}
+.div-casa-texto {
+    display: inline-block;
+    background-color: #ffffff;
+    height: 27rem;
+    width: 32rem;
+    box-shadow: 0 0 2px rgb(0 0 0 / 10%);
+    margin-bottom: 8rem;
+}
+}
+@media all and (max-width:500px) {
+
+.venta-casa {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;       
+
+}
+
+.d-block-w-100 {
+    height:300px;
+    width: 100%;
+}
+
+.carousel-h5 {
+    font-size: 4rem
+}
+.carousel-p {
+    font-size: 2rem;
+}
+.div-casa-div-detalles{
+    display: none;
+
+}
+.div-casa-texto {
+    display: inline-block;
+    background-color: #ffffff;
+    height: 27rem;
+    width: 32rem;
+    box-shadow: 0 0 2px rgb(0 0 0 / 10%);
+    margin-bottom: 8rem;
+}
+}
+@media all and (max-width:400px) {
+
+.venta-casa {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;       
+
+}
+
+.d-block-w-100 {
+    height:200px;
+    width: 100%;
+}
+
+.carousel-h5 {
+    font-size: 4rem
+}
+.carousel-p {
+    font-size: 2rem;
+}
+.div-casa-div-detalles{
+    display: none;
+
+}
+.div-casa-texto {
+    display: inline-block;
+    background-color: #ffffff;
+    height: 27rem;
+    width: 32rem;
+    box-shadow: 0 0 2px rgb(0 0 0 / 10%);
+    margin-bottom: 8rem;
+}
+}

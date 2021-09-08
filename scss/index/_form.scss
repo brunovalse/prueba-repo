@@ -1,0 +1,85 @@
+.form {
+    background-image: url(../imagen/living-room-1835923_1920.jpg);
+    height: 100rem;
+    object-fit: contain;
+    background-size: auto;
+}
+
+.form__div--input {
+    background-color:rgba(158, 152, 152, 0.4) ;
+    margin-left: 40%;
+    margin-top: 100px;
+    flex-direction: column;
+    width: 300px;
+    padding: 30px;
+}
+
+.form__input{
+    
+    margin: 50px;
+}
+
+.form__input--span {
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+}
+.form-span-textarea {
+    margin-left: 50px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+    max-height: 50px;
+    max-width: 150px;
+}
+
+@media all and (max-width:950px) 
+{
+    .form__div--input {
+    background-color:rgba(158, 152, 152, 0.4) ;
+    margin-left: 35%;
+    margin-top: 100px;
+    flex-direction: column;
+    width: 300px;
+    padding: 30px;
+    }
+}
+@media all and (max-width:750px) 
+{
+    .form__div--input {
+    background-color:rgba(158, 152, 152, 0.4) ;
+    margin-left: 25%;
+    margin-top: 100px;
+    flex-direction: column;
+    width: 300px;
+    padding: 30px;
+    }
+}
+
+@media all and (max-width:600px) 
+{
+    .form__div--input {
+    background-color:rgba(158, 152, 152, 0.4) ;
+    margin-left: 25%;
+    margin-top: 100px;
+    flex-direction: column;
+    width: 300px;
+    padding: 30px;
+    }
+}
+@media all and (max-width:500px) {
+    .form__div--input {
+        background-color:rgba(158, 152, 152, 0.4) ;
+        margin-left: 25%;
+        margin-top: 100px;
+        flex-direction: column;
+        width: 200px;
+        padding: 30px;
+        }
+        .form-span-textarea {
+            margin-left: 50px;
+            padding-right: 0px;
+            padding-bottom: 150px;
+            max-height: 50px;
+            max-width: 150px;
+        }
+}

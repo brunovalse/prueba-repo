@@ -1,0 +1,88 @@
+
+
+.personal-section {
+    background-color: rgb(210, 209, 252);
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.personal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 30rem 30rem;
+    object-fit: cover;
+}
+
+.imagen-personal {
+    height: 100px;
+    width: 95px;
+    padding: 20px;
+}
+.imagen-datosfiscal {
+    height: 100px;
+}
+
+.personal-texto {
+    line-height: 30px;
+}
+.personal-1 {
+    display: flex;
+    align-items: center; 
+    
+}
+.personal-2 {
+    display: flex;
+    align-items: center; 
+    
+}
+.personal-3 {
+    display: flex;
+    align-items: center; 
+    
+}
+.personal-4 {
+    display: flex;
+    align-items: center; 
+    
+}
+.personal-5 {
+    display: flex;
+    align-items: center;    
+}
+.foto-fiscal {
+    display: flex;
+    align-items: center; 
+    margin: 2rem;
+}
+
+
+
+
+
+
+@media all and (max-width:1000px) {
+    .personal {
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        grid-template-rows: 30rem ;
+    }
+}
+@media all and (max-width:500px) {
+    .personal {
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-template-rows: 40rem ;
+    }
+    .imagen-personal {
+        height: 100px;
+        width: 90px;
+        
+    }
+    .personal-texto {
+        line-height: 30px;
+        padding-left: 10px;
+        padding-bottom: 50px;
+    }
+}

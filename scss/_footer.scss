@@ -1,0 +1,129 @@
+
+    footer {
+        background-color: rgb(13, 23, 49);
+        border-bottom: 2px solid black;
+        border-top: black 2px solid;
+        height: 100%;
+        
+    }
+    .div-imagen-footer1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .footer__div{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 50px;
+    }
+
+
+
+    .imagen-footer1 {
+        height: 10rem;
+        width: 20rem;
+        padding-bottom: 20px;
+    }
+    
+    .footer__link{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .h2-redes {
+        color: crimson;
+        font-size: 2rem;
+    }
+
+
+    .link-redes-ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+    .linkFooter {
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 2rem;
+        
+    }
+
+
+    .whatsapp {
+        height: 2rem;
+        
+    }
+    .facebook {
+        height: 2rem;
+    }
+    .footer__matricula {
+        color: whitesmoke;
+        font-size: 15px;
+        font-style: italic;
+        font-style: bold;
+        width: 30rem;
+        line-height: 2rem;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }   
+    .matricula__h2 {
+        color: crimson;
+        font-size: 2rem;
+        padding-bottom: 1rem;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }   
+
+    
+
+    .divLinea {
+        border-left: 1px solid whitesmoke;
+        top: 6rem;
+        display: flex;
+    }
+    
+    #contactos {
+        text-decoration: none;
+        font-size: 2rem;
+        bottom: 8rem;
+        left: 32%;
+    }
+
+
+.footer__informacion{
+    font-size: 15px;
+    color: rgb(247, 243, 231);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+    .imagen-ubicacion {
+    height: 2rem;
+}
+.imagen-telefono {
+    height: 2rem;
+}
+
+.imagen-mail {
+    height: 2rem;
+}
+.imagen-horario {
+    height: 2rem;
+}
+
+.p-copy {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

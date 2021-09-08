@@ -1,0 +1,59 @@
+.section-casa {
+        background-color: #e9ecef;
+
+}
+
+.section-div-casa {
+    display: flex;
+    justify-content: center;
+}
+
+
+.casa {
+    background-color: rgb(250, 250, 250);
+    height: 18rem;
+    width: 40rem;
+    margin-top: rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.div-casa-img{
+    display:s ;
+
+}
+.casa-img{
+    height: 40rem;
+    margin: 90px;
+}
+
+
+.formcasa{
+    background-color: #e9ecef;
+}
+
+.div-casa-h6{
+    margin-left: 5rem;
+    font-size: 1.5rem;
+    
+}
+.div-casa-span {
+    margin-left: 5rem;
+    font-size: 1.3rem;
+}
+.div-detalle {
+    background-color: rgb(240, 77, 77);
+    display: inline-block;
+    margin-top: 20rem;
+    width: 40rem;
+    height: 5rem;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+.div-detalle-h2 {
+    font-size: 2rem;
+    color: white;
+    margin: 1rem;
+}
