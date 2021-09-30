@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunovalse/prueba-repo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brunovalse/prueba-repo/issues"
+  },
+  "homepage": "https://github.com/brunovalse/prueba-repo#readme",
   "description": ""
 }

@@ -110,21 +110,191 @@ header label:hover {
     width: 100%;
   }
 }
-.section {
-  background-color: #cecec6;
-  border: solid 2px whitesmoke;
-}
-
-.card-img-top {
-  height: 200px;
-  width: 280px;
-}
-
-.section__div {
+.i-venta-casa {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
 }
 
+.i-div-casa-texto {
+  display: inline-block;
+  background-color: #ffffff;
+  height: 27rem;
+  width: 32rem;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.i-venta-casa-span {
+  position: absolute;
+}
+
+.i-venta-casa-img {
+  width: 32rem;
+  height: 19rem;
+}
+
+.i-venta-casa-span-texto {
+  padding: 1rem 2rem 1rem 2rem;
+  color: white;
+  display: inline-block;
+  background-color: green;
+  font-size: 1.5rem;
+}
+
+.i-casa-link {
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+  font-size: 2rem;
+  margin: 9rem;
+  line-height: 8rem;
+}
+
+.i-div-casa-p {
+  width: 20rem;
+  text-align: center;
+  margin-left: 5rem;
+  line-height: 2rem;
+  font-size: 1.3rem;
+}
+
+.i-div-casa-div-detalles {
+  position: absolute;
+  background-color: #4c4cf1;
+  margin: 0px 0px 0px 110px;
+}
+
+.i-div-casa-detalles {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 1rem 3rem 1rem 3rem;
+}
+
+.i-div-casa-a:hover {
+  filter: brightness(0.7) drop-shadow(1px 1px 20px black);
+}
+
+.i-div-casa-texto:hover {
+  filter: drop-shadow(1px 1px 2px black);
+}
+
+@media all and (max-width: 650px) {
+  .i-venta-casa {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-left: 25%;
+  }
+
+  .i-div-casa-div-detalles {
+    display: none;
+    background-color: #4c4cf1;
+    margin: 0px 0px 0px 110px;
+  }
+
+  .i-div-casa-texto {
+    display: inline-block;
+    background-color: #ffffff;
+    height: 27rem;
+    width: 32rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10rem;
+  }
+}
+@media all and (max-width: 500px) {
+  .i-venta-casa {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-left: 20%;
+  }
+
+  .i-div-casa-div-detalles {
+    display: none;
+    background-color: #4c4cf1;
+    margin: 0px 0px 0px 110px;
+  }
+
+  .i-div-casa-texto {
+    display: inline-block;
+    background-color: #ffffff;
+    height: 27rem;
+    width: 32rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10rem;
+  }
+}
+@media all and (max-width: 450px) {
+  .i-venta-casa {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-left: 15%;
+  }
+
+  .i-div-casa-div-detalles {
+    display: none;
+    background-color: #4c4cf1;
+    margin: 0px 0px 0px 110px;
+  }
+
+  .i-div-casa-texto {
+    display: inline-block;
+    background-color: #ffffff;
+    height: 27rem;
+    width: 32rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10rem;
+  }
+}
+@media all and (max-width: 400px) {
+  .i-venta-casa {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-left: 10%;
+  }
+
+  .i-div-casa-div-detalles {
+    display: none;
+    background-color: #4c4cf1;
+    margin: 0px 0px 0px 110px;
+  }
+
+  .i-div-casa-texto {
+    display: inline-block;
+    background-color: #ffffff;
+    height: 27rem;
+    width: 32rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10rem;
+  }
+}
+@media all and (max-width: 350px) {
+  .i-venta-casa {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-left: 0%;
+  }
+
+  .i-div-casa-div-detalles {
+    display: none;
+    background-color: #4c4cf1;
+    margin: 0px 0px 0px 110px;
+  }
+
+  .i-div-casa-texto {
+    display: inline-block;
+    background-color: #ffffff;
+    height: 27rem;
+    width: 32rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10rem;
+  }
+}
 .form {
   background-image: url(../imagen/living-room-1835923_1920.jpg);
   height: 100rem;
@@ -211,6 +381,12 @@ header label:hover {
   background-color: #fafafa;
   height: 100%;
   width: 100%;
+}
+
+.carousel-p {
+  font-size: 4rem;
+  background-color: gray;
+  opacity: 0.5;
 }
 
 .section-propiedades {
@@ -481,8 +657,48 @@ header label:hover {
     line-height: 24px;
   }
 }
+@media all and (max-width: 700px) {
+  .nosotros-p {
+    font-size: 15px;
+    width: 400px;
+    padding: 0px 0rem 0px 10rem;
+    line-height: 24px;
+  }
+}
+@media all and (max-width: 620px) {
+  .nosotros-p {
+    font-size: 15px;
+    width: 300px;
+    padding: 0px 0rem 0px 12rem;
+    line-height: 24px;
+  }
+}
+@media all and (max-width: 520px) {
+  .nosotros-p {
+    font-size: 15px;
+    width: 300px;
+    padding: 0px 0rem 0px 8rem;
+    line-height: 24px;
+  }
+}
+@media all and (max-width: 450px) {
+  .nosotros-p {
+    font-size: 15px;
+    width: 300px;
+    padding: 0px 0rem 0px 5rem;
+    line-height: 24px;
+  }
+}
+@media all and (max-width: 400px) {
+  .nosotros-p {
+    font-size: 15px;
+    width: 225px;
+    padding: 0px 0rem 0px 5rem;
+    line-height: 24px;
+  }
+}
 .personal-section {
-  background-color: #d2d1fc;
+  background-color: #c7c7c7;
   color: whitesmoke;
   font-size: 15px;
   font-weight: bold;

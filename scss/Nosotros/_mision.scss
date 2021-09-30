@@ -35,3 +35,43 @@
         line-height: 24px;
     }
 }
+@media all and (max-width:700px) {
+    .nosotros-p {
+        font-size: 15px;
+        width: 400px;  
+        padding: 0px 0rem 0px 10rem;      
+        line-height: 24px;
+    }
+}
+@media all and (max-width:620px) {
+    .nosotros-p {
+        font-size: 15px;
+        width: 300px;  
+        padding: 0px 0rem 0px 12rem;      
+        line-height: 24px;
+    }
+}
+@media all and (max-width:520px) {
+    .nosotros-p {
+        font-size: 15px;
+        width: 300px;  
+        padding: 0px 0rem 0px 8rem;      
+        line-height: 24px;
+    }
+}
+@media all and (max-width:450px) {
+    .nosotros-p {
+        font-size: 15px;
+        width: 300px;  
+        padding: 0px 0rem 0px 5rem;      
+        line-height: 24px;
+    }
+}
+@media all and (max-width:400px) {
+    .nosotros-p {
+        font-size: 15px;
+        width: 225px;  
+        padding: 0px 0rem 0px 5rem;      
+        line-height: 24px;
+    }
+}

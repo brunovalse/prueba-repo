@@ -1,13 +1,188 @@
-.section {
-    background-color: rgb(206, 206, 198);
-    border: solid 2px whitesmoke;
+
+.i-venta-casa{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    
 }
 
-.card-img-top {
-    height: 200px;
-    width: 280px;
+
+.i-div-casa-texto {
+    display: inline-block;
+    background-color: #ffffff;
+    height: 27rem;
+    width: 32rem;
+    box-shadow: 0 0 2px rgb(0 0 0 / 10%)
+    
+
 }
-.section__div {
-    display: flex;
-    justify-content: center;
+
+.i-venta-casa-span{
+    position: absolute;
+
+}
+
+.i-venta-casa-img {
+    width: 32rem;
+    height: 19rem;
+    }
+    
+.i-venta-casa-span-texto {
+    padding: 1rem 2rem 1rem 2rem;
+    color: white;
+    display: inline-block;
+    background-color: green;
+    font-size: 1.5rem;
+}
+
+.i-casa-link {
+    text-decoration: none; 
+    color: black;
+    text-decoration: underline;
+    font-size: 2rem;
+    margin: 9rem;
+    line-height: 8rem;
+}
+.i-div-casa-p {
+    width: 20rem;
+    text-align: center;
+    margin-left: 5rem;
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+
+.i-div-casa-div-detalles{
+    position: absolute;
+    background-color: rgb(76, 76, 241);
+    margin: 0px 0px 0px 110px;
+}
+.i-div-casa-detalles{
+    display: inline-block;
+    text-decoration: none;
+    color: white;        
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+.i-div-casa-a:hover {
+    filter: brightness(0.7) drop-shadow(1px 1px 20px black);
+}
+.i-div-casa-texto:hover {
+    filter: drop-shadow(1px 1px 2px black);
+}
+
+@media all and (max-width:650px){
+    .i-venta-casa{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+        margin-left: 25%;
+    }
+    .i-div-casa-div-detalles{
+        display: none;
+        background-color: rgb(76, 76, 241);
+        margin: 0px 0px 0px 110px;
+    }
+    .i-div-casa-texto {
+        display: inline-block;
+        background-color: #ffffff;
+        height: 27rem;
+        width: 32rem;
+        box-shadow: 0 0 2px rgb(0 0 0 / 10%);
+        margin-bottom: 10rem;
+        
+    
+    }
+}
+@media all and (max-width:500px){
+    .i-venta-casa{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+        margin-left: 20%;
+    }
+    .i-div-casa-div-detalles{
+        display: none;
+        background-color: rgb(76, 76, 241);
+        margin: 0px 0px 0px 110px;
+    }
+    .i-div-casa-texto {
+        display: inline-block;
+        background-color: #ffffff;
+        height: 27rem;
+        width: 32rem;
+        box-shadow: 0 0 2px rgb(0 0 0 / 10%);
+        margin-bottom: 10rem;
+        
+    
+    }
+}
+@media all and (max-width:450px){
+    .i-venta-casa{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+        margin-left: 15%;
+    }
+    .i-div-casa-div-detalles{
+        display: none;
+        background-color: rgb(76, 76, 241);
+        margin: 0px 0px 0px 110px;
+    }
+    .i-div-casa-texto {
+        display: inline-block;
+        background-color: #ffffff;
+        height: 27rem;
+        width: 32rem;
+        box-shadow: 0 0 2px rgb(0 0 0 / 10%);
+        margin-bottom: 10rem;
+        
+    
+    }
+}
+@media all and (max-width:400px){
+    .i-venta-casa{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+        margin-left: 10%;
+    }
+    .i-div-casa-div-detalles{
+        display: none;
+        background-color: rgb(76, 76, 241);
+        margin: 0px 0px 0px 110px;
+    }
+    .i-div-casa-texto {
+        display: inline-block;
+        background-color: #ffffff;
+        height: 27rem;
+        width: 32rem;
+        box-shadow: 0 0 2px rgb(0 0 0 / 10%);
+        margin-bottom: 10rem;
+        
+    
+    }
+}
+@media all and (max-width:350px){
+    .i-venta-casa{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+        margin-left: 0%;
+    }
+    .i-div-casa-div-detalles{
+        display: none;
+        background-color: rgb(76, 76, 241);
+        margin: 0px 0px 0px 110px;
+    }
+    .i-div-casa-texto {
+        display: inline-block;
+        background-color: #ffffff;
+        height: 27rem;
+        width: 32rem;
+        box-shadow: 0 0 2px rgb(0 0 0 / 10%);
+        margin-bottom: 10rem;
+        
+    
+    }
 }
