@@ -20,18 +20,26 @@
     border-bottom-right-radius: 5%;
 }
 
-.div-casa-img{
-    display:s ;
 
-}
 .casa-img{
     height: 40rem;
-    margin: 90px;
+    margin: 4rem 15rem 0 0;
 }
 
 
 .formcasa{
-    background-color: #e9ecef;
+    background-image: url(../../../imagen/kitchen-1940174_1920\ \(1\).jpg);
+}
+.form-div-h3{
+    padding: 5rem 0px 0px 20rem;
+    font-size: 4rem;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.form-h3{
+    
+    font-size: 2rem;
 }
 
 .div-casa-h6{
@@ -45,15 +53,47 @@
 }
 .div-detalle {
     background-color: rgb(240, 77, 77);
-    display: inline-block;
-    margin-top: 20rem;
+    display: flex;
+    justify-content: space-between;
     width: 40rem;
     height: 5rem;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
+    margin-top: 20rem
 }
 .div-detalle-h2 {
+    padding: 1.5rem 0px 0px 3rem;
+    font-size: 1.5;
+}
+
+.div-detalle-h3{
+    padding: 1.5rem 3rem 0px 0px;
+    font-size: 1.5rem;
+}
+
+.div-casa-h2 {
+    display: inline-block;
+    
+    margin: 4rem 0px 0px 25rem;
+    font-size: 2.5rem;
+    padding: 1rem 4rem 1rem 4rem;
+}
+
+.div-casa-info{
+    padding: 0px 0px 4rem 8rem;
+    width: 60rem
+}
+.casa-info{
+    font-size: 1.8rem;
+
+}
+.info-h2{
+    padding: 4rem;
     font-size: 2rem;
-    color: white;
-    margin: 1rem;
+    font-style: italic ;
+    text-decoration: underline;
+}
+
+@media all and(max-width:100px){
+
 }
