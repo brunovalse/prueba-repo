@@ -90,9 +90,31 @@
         width: 32rem;
         box-shadow: 0 0 2px rgb(0 0 0 / 10%);
         margin-bottom: 10rem;
-        
-    
     }
+    .i-venta-casa-span-texto {
+        padding: 1rem 2rem 1rem 2rem;
+        color: white;
+        display: inline-block;
+        background-color: green;
+        font-size: 1rem;
+    }
+    
+    .i-casa-link {
+        text-decoration: none; 
+        color: black;
+        text-decoration: underline;
+        font-size: 1.5rem;
+        margin: 9rem;
+        line-height: 8rem;
+    }
+    .i-div-casa-p {
+        width: 20rem;
+        text-align: center;
+        margin-left: 5rem;
+        line-height: 2rem;
+        font-size: 1rem;
+    }
+    
 }
 @media all and (max-width:500px){
     .i-venta-casa{
