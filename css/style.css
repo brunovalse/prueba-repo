@@ -977,7 +977,7 @@
   background-color: #fafafa;
   height: 18rem;
   width: 40rem;
-  margin-top: rem;
+  padding-top: 1.3rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   border-bottom-left-radius: 5%;
@@ -1058,6 +1058,246 @@
   text-decoration: underline;
 }
 
+@media all and (max-width: 800px) {
+  .div-detalle {
+    background-color: #f04d4d;
+    display: flex;
+    justify-content: space-between;
+    width: 40rem;
+    height: 5rem;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    margin: 4rem 10rem 0px 0px;
+  }
+
+  .section-div-casa {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .casa-img {
+    height: 35rem;
+    margin: 4rem 5rem 0 0;
+  }
+}
+@media all and (max-width: 670px) {
+  .div-detalle {
+    background-color: #f04d4d;
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+    height: 5rem;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    margin: 4rem 10rem 0px 0px;
+  }
+
+  .casa {
+    background-color: #fafafa;
+    height: 18rem;
+    width: 30rem;
+    padding-top: 1.3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+  }
+
+  .section-div-casa {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .casa-img {
+    height: 30rem;
+    margin: 4rem 5rem 0 0;
+  }
+
+  .form-div-h3 {
+    padding: 5rem 0px 0px 20rem;
+    font-size: 3rem;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+  .form-h3 {
+    font-size: 1.5rem;
+  }
+
+  .div-casa-h6 {
+    margin-left: 5rem;
+    font-size: 1rem;
+  }
+
+  .div-casa-span {
+    margin-left: 5rem;
+    font-size: 1rem;
+  }
+
+  .div-detalle-h2 {
+    padding: 1.5rem 0px 0px 3rem;
+    font-size: 1.5rem;
+  }
+
+  .div-detalle-h3 {
+    padding: 1.5rem 3rem 0px 0px;
+    font-size: 1.5rem;
+  }
+
+  .div-casa-h2 {
+    margin: 4rem 0px 0px 0rem;
+    font-size: 2rem;
+    padding: 1rem 4rem 1rem 4rem;
+  }
+
+  .casa-info {
+    font-size: 1.3rem;
+  }
+
+  .info-h2 {
+    padding: 4rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+  .div-casa-info {
+    padding: 0px 0px 4rem 8rem;
+    width: 50rem;
+  }
+}
+@media all and (max-width: 580px) {
+  .casa-info {
+    font-size: 1.3rem;
+  }
+
+  .info-h2 {
+    padding: 4rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+  .div-casa-info {
+    padding: 0px 0px 4rem 8rem;
+    width: 40rem;
+  }
+}
+@media all and (max-width: 490px) {
+  .casa-img {
+    height: 25rem;
+    margin: 4rem 5rem 0 0;
+  }
+
+  .casa-info {
+    font-size: 1.3rem;
+  }
+
+  .info-h2 {
+    padding: 4rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+  .div-casa-info {
+    padding: 0px 0px 4rem 5rem;
+    width: 30rem;
+  }
+}
+@media all and (max-width: 460px) {
+  .div-detalle {
+    background-color: #f04d4d;
+    display: flex;
+    justify-content: space-between;
+    width: 22rem;
+    height: 5rem;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    margin: 4rem 10rem 0px 0px;
+  }
+
+  .casa {
+    background-color: #fafafa;
+    height: 18rem;
+    width: 22rem;
+    padding-top: 1.3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+  }
+
+  .section-div-casa {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .casa-img {
+    height: 20rem;
+    margin: 4rem 5rem 0 0;
+  }
+
+  .form-div-h3 {
+    padding: 5rem 0px 0px 20rem;
+    font-size: 3rem;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+  .form-h3 {
+    font-size: 1.5rem;
+  }
+
+  .div-casa-h6 {
+    margin-left: 5rem;
+    font-size: 1rem;
+  }
+
+  .div-casa-span {
+    margin-left: 5rem;
+    font-size: 1rem;
+  }
+
+  .div-detalle-h2 {
+    padding: 1.5rem 0px 0px 3rem;
+    font-size: 1.5rem;
+  }
+
+  .div-detalle-h3 {
+    padding: 1.5rem 3rem 0px 0px;
+    font-size: 1.5rem;
+  }
+
+  .div-casa-h2 {
+    margin: 4rem 0px 0px 0rem;
+    font-size: 2rem;
+    padding: 1rem 4rem 1rem 4rem;
+  }
+
+  .casa-info {
+    font-size: 1.3rem;
+  }
+
+  .info-h2 {
+    padding: 4rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+  .div-casa-info {
+    padding: 0px 0px 4rem 4rem;
+    width: 30rem;
+  }
+
+  .form-div-h3 {
+    padding: 5rem 0px 0px 8rem;
+    font-size: 3rem;
+    font-style: italic;
+    text-decoration: underline;
+  }
+}
 footer {
   background-color: #0d1731;
   border-bottom: 2px solid black;
